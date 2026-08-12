@@ -38,7 +38,7 @@
     "lint": "biome check --write ."
   },
   "peerDependencies": {
-    "vite": "^6.3.5"
+    "vite": "^6.3.5 || ^7 || ^8"
   },
   "devDependencies": {
     "@arethetypeswrong/core": "^0.18.5",
