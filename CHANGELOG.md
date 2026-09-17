@@ -1,5 +1,11 @@
 # vite-plugin-module-boundaries
 
+## 1.0.2
+
+### Patch Changes
+
+- b0d83e7: Run boundary checks only during builds, preventing development-server failures when Vite does not expose module importers.
+
 ## 1.0.1
 
 ### Patch Changes
