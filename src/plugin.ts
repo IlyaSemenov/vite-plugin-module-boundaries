@@ -43,6 +43,7 @@ export interface ModuleBoundariesOptions {
 export function moduleBoundaries(options: ModuleBoundariesOptions): Plugin {
   return {
     name: "module-boundaries",
+    apply: "build",
     enforce: "pre",
     transform(_code: string, id: string, transformOptions?: { ssr?: boolean }) {
       const context: ModuleBoundaryContext = {

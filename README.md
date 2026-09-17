@@ -2,6 +2,8 @@
 
 A Vite plugin that fails a build when modules outside configured filesystem surfaces enter a selected module graph.
 
+Checks run during builds, including watch builds, but not in the development server.
+
 ## Install
 
 ```sh
